@@ -34,12 +34,8 @@ nav {
   list-style-type: none;
 }
 
-nav {
-  display: block;
-}
-
 nav li {
-  display: inline;
+  display: inline-block;
 }
 
 nav a {
@@ -50,7 +46,26 @@ a {
   color: #0074d9;
 }
 
-nav a.current:hover {
+nav a:hover {
   color: #fff;
   background-color: #0074d9;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+  .masthead {
+    text-align: left;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }
